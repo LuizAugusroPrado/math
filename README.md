@@ -100,3 +100,42 @@ Calculando as posições angulares acumuladas:
 Com $H = 2N + 1$ hastes intercaladas, formam-se $2N$ segmentos de corda idênticos em parâmetros geométricos ($C$ e $k_1$). Pela mesma condição variacional do Teorema 1, os $2N$ subângulos locais igualam-se a $\Delta\alpha = \frac{\theta}{2N}$. As hastes ímpares internas de ordem $2m + 1$ (para $m = 1, 2, \dots$)
 
 ![Uso nas radiciações](image_abe5308.jpg)
+
+
+As hastes ímpares internas de ordem $2m + 1$ (para $m = 1, 2, \dots, N-1$) posicionam-se nos ângulos absolutos:
+
+$$\alpha_{2m+1} = 2m\left(\frac{\theta}{2N}\right) = \frac{m\theta}{N}$$
+
+Dessa forma, o mecanismo realiza a divisão exata de qualquer ângulo plano $\theta$ em $N$ setores congruentes de abertura $\frac{\theta}{N}$.
+
+## 5. Aplicação Analógica: Polinômios de Chebyshev e Radiciação Cúbica
+
+A capacidade de dividir um ângulo arbitrário em $N$ partes iguais permite utilizar o dispositivo como um **computador analógico** para resolver equações algébricas de grau $N$, em especial a extração de raízes cúbicas e a avaliação inversa de polinômios de Chebyshev.
+
+### 5.1. Resolução de Polinômios de Chebyshev de Primeira Espécie
+Os polinômios de Chebyshev de primeira espécie, $T_N(x)$, são definidos pela identidade trigonométrica:
+
+$$T_N(\cos\phi) = \cos(N\phi)$$
+
+Para encontrar uma raiz real da equação $T_N(x) = c$ (com $c \in [-1, 1]$):
+1. Posiciona-se a haste de contorno $\alpha_{2N+1}$ no ângulo $\theta = \arccos(c)$ sobre o transferidor graduado (ou projetando a coordenada $x = c$ no eixo horizontal unitário).
+2. Ao tracionar a corda até o equilíbrio estático, a primeira haste interna de referência ($\alpha_3$) estabiliza-se em $\phi = \frac{\theta}{N}$.
+3. A projeção ortogonal da extremidade unitária dessa haste sobre o eixo $X$ fornece diretamente a solução analógica:
+
+$$x = \cos\left(\frac{\theta}{N}\right) = \cos\left(\frac{\arccos(c)}{N}\right)$$
+
+### 5.2. Extração Analógica de Raízes Cúbicas (Caso $N = 3$)
+A equação cúbica reduzida (forma de Viète) é dada por:
+
+$$t^3 - 3pt - q = 0$$
+
+Quando a equação possui três raízes reais distintas (o *casus irreducibilis* da álgebra clássica, onde o discriminante $\Delta = q^2 - 4p^3 < 0$), sua solução algébrica exige o uso de números complexos, mas sua solução geométrica é imediata via trissecção:
+
+1. Aplica-se a substituição de escala $t = 2\sqrt{p}\cos\phi$, transformando a equação na identidade trigonométrica do ângulo triplo:
+   $$4\cos^3\phi - 3\cos\phi = \frac{q}{2p\sqrt{p}} \implies \cos(3\phi) = \frac{q}{2p\sqrt{p}}$$
+2. Define-se o ângulo de entrada $\theta = \arccos\left(\frac{q}{2p\sqrt{p}}\right)$ na haste $\alpha_7$ do trisseccionador.
+3. Sob tensão da corda, as hastes internas $\alpha_3$ e $\alpha_5$ fornecem mecanicamente os ângulos $\frac{\theta}{3}$ e $\frac{2\theta}{3}$.
+4. As três raízes reais da equação cúbica são lidas diretamente pelas projeções horizontais:
+   $$t_k = 2\sqrt{p}\cos\left(\frac{\theta + 2\pi k}{3}\right), \quad k \in \{0, 1, 2\}$$
+
+Dessa maneira, o sistema variacional de hastes e corda resolve mecanicamente o *casus irreducibilis* sem necessidade de aritmética complexa.
