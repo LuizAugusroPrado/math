@@ -3,7 +3,7 @@
 **Autor:** Luiz Augusto Prado — `1807787` (UnB)  
 **Área:** Geometria Mecânica, Cinemática Geométrica e Otimização  
 **Licença:** Domínio Público ([CC0 1.0](https://creativecommons.org))
-**Mais detalhe:** sirmartmiracle (https://sirmathmiracle.blogger.com)
+**Mais detalhe:** sirmartmiracle (https://sirmathmiracle.blogspot.com)
 
 ---
 
