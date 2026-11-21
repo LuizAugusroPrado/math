@@ -98,3 +98,5 @@ Calculando as posições angulares acumuladas:
 ### Demonstração
 
 Com $H = 2N + 1$ hastes intercaladas, formam-se $2N$ segmentos de corda idênticos em parâmetros geométricos ($C$ e $k_1$). Pela mesma condição variacional do Teorema 1, os $2N$ subângulos locais igualam-se a $\Delta\alpha = \frac{\theta}{2N}$. As hastes ímpares internas de ordem $2m + 1$ (para $m = 1, 2, \dots$)
+
+![Uso nas radiciações](image_abe5308.jpg)
