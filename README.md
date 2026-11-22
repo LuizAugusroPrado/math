@@ -3,7 +3,7 @@
 **A Resolução da Trissecção e N-Secção do Ângulo via Mecanismos Cinemáticos Variacionais**
 
 * **Autor:** Luiz Augusto Prado — 1807787 (UnB)
-* **blog:** https://sirmathmiracle.blogspot.com/2026/11/corda-graduada.html
+* **blog:** https://sirmathmiracle.blogspot.com
 * **Data:** 20 de novembro de 2026
 * **Área:** Geometria Mecânica, Cinemática Geométrica e Otimização
 * **Licença:** Domínio Público ([CC0 1.0 Universal](https://creativecommons.org))
